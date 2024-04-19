@@ -1,0 +1,76 @@
+@media (max-width: 768px){
+    .busqueda{
+        display: none;
+    }
+    .tamaño{
+        width: 50dvh;
+        margin-left: 14dvh;
+    }
+    .navbar-nav .nav-link {
+        font-size: 23px;
+    }
+    section h1{
+        font-size: 2rem;
+    }
+    main div h2{
+        font-size: 2rem;
+    }
+    .index-p{
+        padding: 5px;
+        font-size: 3dvh;
+        color: $color-text;
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+    .footer{
+        justify-items: center;
+        justify-content: center;
+    }
+    .qs-text{
+        color: $color-footer;
+        font-weight: 300;
+        padding: 10px;
+        font-size: 2rem;
+    }
+    .forma{
+        max-width: 360px;
+        justify-content: center;
+    }
+    .forma .buy-list li p{
+        font-size: 2dvh;
+        color: $color-list;
+        margin: 0%;
+        padding-bottom: 1dvh;
+    }
+    .explicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .articulo{
+        max-width: 576px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+
+
+@media (max-width: 1180px){
+    .busqueda{
+        display: none;
+    }
+    .navbar-nav .nav-link{
+        font-size: 25px;
+    }
+    .footer{
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    h1{
+        padding-top: 5dvh;
+        font-size: 6dvh;
+    }
+}

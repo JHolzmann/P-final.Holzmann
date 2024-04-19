@@ -1,0 +1,26 @@
+.care-h1 h1{
+    text-decoration: underline;
+    color: $color-text;
+}
+
+@mixin articulo{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.articulo{
+    @include articulo;
+    .titulo-3{
+        color: #3f612d;
+        font-weight: 700;
+        font-size: 5dvh;
+        text-align: center;
+        .care-p{
+            font-weight: 400;
+            font-size: 2dvh;
+        }
+    }
+}
